@@ -1,0 +1,14 @@
+<view class="container">
+    <view class="item">
+        <button bindtap="handleScanCode">扫码</button>
+        <button bindtap="handlEvibrateLong">长震动</button>
+        <button bindtap="handlVibrateShort">短震动</button>
+        <button bindtap="hadleCallMe">打电话</button>
+        <button bindtap="getLoaclIP">获取局域网IP</button>
+        <button bindtap="crrentNetworkType">获取网络类型</button>
+        <button bindtap="selectUserInfo">选择联系人</button>
+        <button bindtap="addPhoneUserInfo">添加联系人</button>
+        <button bindtap="openMapLocation">打开当前位置信息</button>
+        <button bindtap="getMapLocation">获取当前位置信息</button>
+    </view>
+</view>

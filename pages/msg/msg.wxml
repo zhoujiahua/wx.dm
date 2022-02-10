@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="item">
+        <button type="primary" bindtap="getUserOpenid">获取OPENID</button>
+        <button type="primary" bindtap="getMsgAuth">获取授权</button>
+        <button type="primary" bindtap="sendToUserMsg">发送消息</button>
+        <input type="text" name="uname" placeholder="用户信息" bindinput="getUserName" />
+    </view>
+</view>
